@@ -1,0 +1,62 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 10
+    y: 10
+
+scrolling:
+  history: 5000
+  auto_scroll: true
+
+font:
+  normal:
+    family: Monospace
+    style: Regular
+  bold:
+    family: Monospace
+    style: Bold
+  size: 8.5
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: '#312d38' 
+    foreground: '#eff0eb'
+  cursor:
+    cursor: '#97979b'
+  selection:
+    text:       '#282a36'
+    background: '#feffff'
+
+  normal:
+    black:   '#282a36'
+    red:     '#ff5c57'
+    green:   '#5af78e'
+    yellow:  '#f3f99d'
+    blue:    '#57c7ff'
+    magenta: '#ff6ac1'
+    cyan:    '#9aedfe'
+    white:   '#f1f1f0'
+
+  bright:
+    black:   '#686868'
+    red:     '#ff2121'
+    green:   '#5af78e'
+    yellow:  '#f3f99d'
+    blue:    '#3838ff'
+    magenta: '#FF55FF'
+    cyan:    '#9aedfe'
+    white:   '#eff0eb' 
+
+background_opacity: 0.8
+
+cursor:
+  unfocused_hollow: true 
+
+key_bindings:
+  - { key: V,         mods: Control|Shift, action: Paste                       }
+  - { key: C,         mods: Control|Shift, action: Copy                        }
+
