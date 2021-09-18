@@ -1,2 +1,2 @@
 # Dotfilles
-My Dotfiles for a WM on Linux
+My Dotfiles for a BSPWM on Linux
