@@ -1,0 +1,108 @@
+@import url("./reset.css");
+
+/**
+ * Arc Colors
+ */
+@define-color arc_dark #1c1c1c;
+@define-color arc_light #FFFFFF;
+@define-color arc_accent #d23793;
+@define-color arc_border #d23793;
+@define-color arc_text #FFFFFF;
+@define-color arc_text_selected #FFFFFF;
+
+/**
+ * App Window
+ */
+@define-color bg_color @arc_dark;
+@define-color window_shadow rgba(0, 0, 0, 0.0);
+@define-color window_bg @bg_color;
+@define-color window_border_color @arc_border;
+@define-color prefs_backgroud @arc_accent;
+
+/**
+ * Input
+ */
+@define-color selected_bg_color @arc_accent;
+@define-color selected_fg_color @arc_text_selected;
+@define-color input_color @arc_text;
+@define-color caret_color @arc_text;
+
+/**
+ * Result items
+ */
+@define-color item_name @arc_text;
+@define-color item_text @item_name;
+@define-color item_box_selected @arc_accent;
+@define-color item_text_selected @arc_text_selected;
+@define-color item_name_selected @arc_text_selected;
+@define-color item_shortcut_color @arc_text;
+@define-color item_shortcut_color_sel @arc_text_selected;
+
+.app {
+	box-shadow: 0 0 0px @window_shadow;
+	background-color: @window_bg;
+	border: 3px solid @window_border_color;
+	border-radius: 5px;
+}
+
+.input {
+	color: @input_color;
+	font-size: 170%;
+	padding: 5px 0 5px 7px;
+}
+
+/**
+ * Selected text in input
+ */
+.input *:selected,
+.input *:focus,
+*:selected:focus {
+	background-color: @selected_bg_color;
+	color: @selected_fg_color;
+}
+
+.item-text {
+	color: @item_text;
+}
+.item-name {
+	color: @item_name;
+	font-size: 120%;
+}
+
+.selected.item-box {
+	background-color: @item_box_selected;
+	border-left: 1px solid @window_border_color;
+	border-right: 1px solid @window_border_color;
+}
+.selected.item-box .item-text {
+	color: @item_text_selected;
+}
+.selected.item-box .item-name {
+	color: @item_name_selected;
+}
+.item-shortcut {
+	color: @item_shortcut_color;
+}
+.selected.item-box .item-shortcut {
+	color: @item_shortcut_color_sel;
+}
+
+.item-descr {
+	font-size: 80%;
+}
+
+
+/**
+ * Small result item
+ */
+.small-result-item .item-name {
+	font-size: 100%;
+}
+
+.prefs-btn {
+	border-radius: 12px;
+	background: url("./prefs.svg") center no-repeat;
+}
+.prefs-btn:hover {
+	background-color: @prefs_backgroud;
+}

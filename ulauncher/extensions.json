@@ -1,0 +1,44 @@
+{
+    "com.github.isacikgoz.ukill": {
+        "id": "com.github.isacikgoz.ukill",
+        "url": "https://github.com/isacikgoz/ukill",
+        "updated_at": "2021-09-19T13:05:11.440645",
+        "last_commit": "bc50d9f41d46b6813a5aeebddd15734dcdb9d8db",
+        "last_commit_time": "2019-05-28T18:30:00"
+    },
+    "com.github.the-lay.ulauncher-spotify-api": {
+        "id": "com.github.the-lay.ulauncher-spotify-api",
+        "url": "https://github.com/the-lay/ulauncher-spotify-api",
+        "updated_at": "2021-09-19T13:05:50.134458",
+        "last_commit": "fada055fca1ed1787e3908c66f3e326f7babb886",
+        "last_commit_time": "2021-08-30T16:47:42"
+    },
+    "com.github.fisadev.ulauncher-better-file-browser": {
+        "id": "com.github.fisadev.ulauncher-better-file-browser",
+        "url": "https://github.com/fisadev/ulauncher-better-file-browser",
+        "updated_at": "2021-09-19T13:12:47.648890",
+        "last_commit": "8ec8a0dda09e172de62051cd1f251816ce4af368",
+        "last_commit_time": "2019-09-06T19:20:09"
+    },
+    "com.github.iboyperson.ulauncher-system": {
+        "id": "com.github.iboyperson.ulauncher-system",
+        "url": "https://github.com/iboyperson/ulauncher-system",
+        "updated_at": "2021-09-19T13:13:03.938021",
+        "last_commit": "87ea428f97070e3a410f26110efda68115f06f26",
+        "last_commit_time": "2021-09-14T00:06:41"
+    },
+    "com.github.mikebarkmin.ulauncher-duckduckgo": {
+        "id": "com.github.mikebarkmin.ulauncher-duckduckgo",
+        "url": "https://github.com/mikebarkmin/ulauncher-duckduckgo",
+        "updated_at": "2021-09-19T13:15:37.432503",
+        "last_commit": "f2ea6a187082c600a59acc9cca6e288d96f66cc0",
+        "last_commit_time": "2021-08-07T18:51:44"
+    },
+    "com.github.norbr9.ulauncher-youtube-search": {
+        "id": "com.github.norbr9.ulauncher-youtube-search",
+        "url": "https://github.com/norbr9/ulauncher-youtube-search",
+        "updated_at": "2021-09-19T13:15:51.126603",
+        "last_commit": "f06b3636bc18b574409eedbb50aadfcb2d083da6",
+        "last_commit_time": "2021-05-15T18:06:54"
+    }
+}
