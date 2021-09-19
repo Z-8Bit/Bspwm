@@ -4,12 +4,6 @@
 super + Return
 	alacritty
 
-# program launcher
-super + d
-	rofi -modi drun -show drun -line-padding 4 \
-                -columns 2 -padding 50 -hide-scrollbar -terminal xfce4-terminal \
-                -show-icons -drun-icon-theme "Tela-pink-dark" -font "Noto Sans Regular 11"
-
 # show ssh sesssions
 super + shift + d
 	rofi -modi drun -show ssh -line-padding 4 \
