@@ -1,10 +1,12 @@
 # Z's Dotfiles
 My Dotfiles for BSPWM on Linux.
 
+![image](https://user-images.githubusercontent.com/72144072/134498651-9904d7ff-357f-45bd-8f55-ada977628bc4.png)
+Old polybar - 
 ![image](https://user-images.githubusercontent.com/72144072/133924122-84f984b7-0849-4841-9750-2d36d6142647.png)
 ![image](https://user-images.githubusercontent.com/72144072/133895188-61c9379c-ba03-486e-9328-f77d6aab56d6.png)
 
-My older setups with the same config and slight modification -
+My older setups with the similar config and slight modification -
 
 ![image](https://user-images.githubusercontent.com/72144072/133895244-ea5b38d4-e938-48b7-bcfd-1c6045c93159.png)
 
