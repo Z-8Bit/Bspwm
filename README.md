@@ -1,6 +1,8 @@
 # Z's Dotfiles
 My Dotfiles for BSPWM on Linux.
 
+![image](https://user-images.githubusercontent.com/72144072/135455929-35bdf25e-5319-4519-8f9e-5b5e18f387bd.png)
+
 ![image](https://user-images.githubusercontent.com/72144072/134498651-9904d7ff-357f-45bd-8f55-ada977628bc4.png)
 
 Old polybar -
