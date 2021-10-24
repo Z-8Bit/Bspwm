@@ -7,7 +7,7 @@ colors:
     text: CellBackground
     cursor: '#ff6ac1'
   selection:
-    text:  CellForeground
+    text:  '#FF55FF'
     background: '#0d0c0e'
 
   normal:
@@ -25,7 +25,7 @@ colors:
     red:     '#ff2121'
     green:   '#5af78e'
     yellow:  '#f3f99d'
-    blue:    '#3838ff'
+    blue:    '#6a9aff'
     magenta: '#FF55FF'
     cyan:    '#9aedfe'
     white:   '#eff0eb'
@@ -34,10 +34,10 @@ background_opacity: 0.8
 
 font:
   normal:
-    family: Monospace
+    family: JetBrainsMono Nerd Font
   bold:
-    family: Monospace
-  size: 9
+    family: JetBrainsMono Nerd Font
+  size: 8
 
 window:
   padding:
