@@ -1,4 +1,4 @@
-# Z's Dotfiles
+# Z's Bspwm dotfiles
 My Dotfiles for BSPWM on Linux.
 
 ![image](https://user-images.githubusercontent.com/72144072/135455929-35bdf25e-5319-4519-8f9e-5b5e18f387bd.png)
