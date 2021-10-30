@@ -20,14 +20,11 @@ bspc rule -a Ulauncher Preferences state=floating border=off
  bspc config presel_feedback_color	"#009dff"
 
 $HOME/.config/polybar/launch.sh
-# $HOME/.config/polybar/shapes/launch.sh
 /usr/bin/dunst &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # nitrogen --restore &
 /usr/bin/nitrogen --set-zoom-fill --random Pictures/Nice --save
 xrandr --output eDP-1 --scale 0.9x0.9
-dex -a -s /etc/xdg/autostart/:~/.config/autostart/  
 picom -CGb &
 nm-applet --indicator &
-xsetroot -cursor_name left_ptr &
 ulauncher &
