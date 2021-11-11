@@ -21,10 +21,7 @@ bspc rule -a Ulauncher Preferences state=floating border=off
 
 $HOME/.config/polybar/launch.sh
 /usr/bin/dunst &
-#/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # nitrogen --restore &
-/usr/bin/nitrogen --set-zoom-fill --random Pictures/Nice --save
-xrandr --output eDP-1 --scale 0.9x0.9
+/usr/bin/nitrogen --set-zoom-fill --random Pictures/Wallpapers --save
 picom -CGb &
 nm-applet --indicator &
-ulauncher &
