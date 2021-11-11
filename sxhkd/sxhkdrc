@@ -5,7 +5,7 @@ super + Return
 	alacritty
 
 # Rofi
-super + shift + d
+super + r
 	rofi -show drun 
 
 # Make sxhkd reload its configuration files:
