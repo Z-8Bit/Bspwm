@@ -45,8 +45,8 @@ window:
     y: 8
 
 cursor:
-  unfocused_hollow: true 
-  
+  style:
+    shape: Beam  
 env:
   TERM: xterm-256color
 
