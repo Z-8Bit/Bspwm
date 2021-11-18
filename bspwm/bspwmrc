@@ -20,8 +20,11 @@ bspc rule -a Ulauncher Preferences state=floating border=off
  bspc config presel_feedback_color	"#009dff"
 
 $HOME/.config/polybar/launch.sh
+bspwmrc
+#nitrogen --restore &
 /usr/bin/dunst &
-# nitrogen --restore &
+picom &
 /usr/bin/nitrogen --set-zoom-fill --random Pictures/Wallpapers --save
-picom -CGb &
-nm-applet --indicator &
+nm-applet &
+blueman-applet &
+touchegg &
