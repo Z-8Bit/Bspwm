@@ -18,7 +18,7 @@
 ## Setting up 
 
 1. Decide if you want the bare minimum for my Bspwm setup, or all my applications and programs, the minimal one doesn't break anything.
-2. chmod +x qtilebig-setup.sh or chmod +x qtile-base-setup.sh
+2. chmod +x bspwm-big-setup.sh or chmod +x qtile-base-setup.sh
 3. Run the scripts ./bspwm-big-setup.sh or ./bspwm-base-setup.sh
 4. Type the sudo password whenever asked.
 5. Enjoy your new Bspwm setup!
