@@ -22,7 +22,7 @@ cp ~/Downloads/Bspwm/polybar/* ~/.config/polybar/
 cp ~/Downloads/Bspwm/rofi/*. ~/.config/rofi/
 cp ~/Downloads/Bspwm/neofetch/config.conf ~/.config/neofetch/
 cp ~/Downloads/Bspwm/picom.conf ~/.config/
-cp ~/Downloads/touchegg/touchegg.conf ~/.config/touchegg/
+cp ~/Downloads/Bspwm/touchegg/touchegg.conf ~/.config/touchegg/
 
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
