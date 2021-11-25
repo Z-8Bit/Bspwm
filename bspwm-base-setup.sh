@@ -28,6 +28,7 @@ chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
 chmod +x ~/.config/polybar/launch.sh
 sudo systemctl start touchegg
+sudo cp ~/Downloads/Bspwm/lightdm-gtk-greeter.conf /etc/lightdm/
 
 sleep 5
 RED='\033[0;31m'
