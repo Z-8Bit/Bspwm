@@ -29,7 +29,7 @@ chmod +x ~/.config/sxhkd/sxhkdrc
 chmod +x ~/.config/polybar/launch.sh
 sudo systemctl start touchegg
 sudo cp ~/Downloads/Bspwm/lightdm-gtk-greeter.conf /etc/lightdm/
-sudo cp ~/Downloads/Qtile/ARTWORK-wanderer-above-the-sea-of-fog.jpg /etc/lightdm
+sudo cp ~/Downloads/Bspwm/ARTWORK-wanderer-above-the-sea-of-fog.jpg /etc/lightdm
 
 sleep 5
 RED='\033[0;31m'
