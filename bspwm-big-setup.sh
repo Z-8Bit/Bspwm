@@ -11,7 +11,7 @@ done
 
 git clone https://github.com/Z-8Bit/Bspwm.git ~/Downloads/Bspwm
 
-mkdir -p ~/.config/{alacritty,bspwm,cava,dunst,polybar,rofi,neofetch,sxhkd}
+mkdir -p ~/.config/{alacritty,bspwm,cava,dunst,polybar,rofi,neofetch,sxhkd,touchegg}
 
 cp ~/Downloads/Bspwm/alacritty/alacritty.yml ~/.config/alacritty/
 cp ~/Downloads/Bspwm/bspwm/bspwmrc ~/.config/bspwm/
@@ -22,6 +22,7 @@ cp ~/Downloads/Bspwm/polybar/* ~/.config/polybar/
 cp ~/Downloads/Bspwm/rofi/* ~/.config/rofi/
 cp ~/Downloads/Bspwm/neofetch/config.conf ~/.config/neofetch/
 cp ~/Downloads/Bspwm/picom.conf ~/.config/
+cp ~/Downloads/Bspwm/touchegg/touchegg.conf ~/.config/touchegg/
 
 chmod +x ~/.config/bspwm/bspwmrc
 chmod +x ~/.config/sxhkd/sxhkdrc
