@@ -1,4 +1,5 @@
-# Z's Bspwm dotfiles
+# Bspwm 
+## Bspwm dotfiles.
 
 ![image](https://user-images.githubusercontent.com/72144072/134498651-9904d7ff-357f-45bd-8f55-ada977628bc4.png)
 
