@@ -23,5 +23,3 @@
 5. Type the sudo password whenever asked.
 6. Enjoy your new Bspwm setup!
 
-![image](https://user-images.githubusercontent.com/72144072/148573618-eedf30e9-48a9-46e7-b3ed-e02e02a2dd78.png)
-
