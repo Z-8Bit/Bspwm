@@ -3,7 +3,7 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-paru -S --noconfirm alacritty auto-cpufreq backlight_control bluez bluez-utils bspwm btop cmatrix discord dunst figlet firefox-developer-edition fluent-gtk-theme-git fluent-cursor-theme-git i3lock-color lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lolcat lollypop lxappearance maim mpv neofetch nerd-fonts-complete network-manager-applet nitrogen noto-fonts-emoji ntfs-3g pavucontrol picom-jonaburg-git polybar pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseuadio-jack qbittorrent-dark-git qogir-gtk-theme-git refind rofi spotify stacer-git sxhkd teams-for-linux tela-icon-theme thunar touchegg touche ttc-iosevka ttf-material-design-icons ttf-unifont ttf-ms-fonts viewnior vscodium-bin whatsapp-nativefier-dark xclip xorg zoom
+paru -S --noconfirm alacritty auto-cpufreq backlight_control bluez bluez-utils bspwm btop cmatrix discord dunst figlet firefox-developer-edition fluent-gtk-theme-git fluent-cursor-theme-git i3lock-color lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings lolcat lollypop lxappearance maim mpv neofetch nerd-fonts-complete network-manager-applet nitrogen noto-fonts-emoji ntfs-3g pavucontrol picom-jonaburg-git polybar pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseuadio-jack qbittorrent-dark-git qogir-gtk-theme-git refind rofi spotify stacer-git sxhkd teams-for-linux tela-icon-theme-bin thunar touchegg touche ttc-iosevka ttf-material-design-icons ttf-unifont ttf-ms-fonts viewnior vscodium-bin whatsapp-nativefier-dark xclip xorg zoom
 
 for service in bluetooth lightdm NetworkManager touchegg.service; do
   sudo systemctl enable --now $service
