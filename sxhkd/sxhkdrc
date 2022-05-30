@@ -6,7 +6,7 @@ super + Return
 
 # Rofi
 super + r
-	rofi -show drun 
+	rofi -show drun -auto-select
 
 # Make sxhkd reload its configuration files:
 super + Escape
@@ -74,40 +74,13 @@ XF86MonBrightnessDown
 
 # Personal Shortcuts
 
-alt + f 
-  firefox-developer-edition
-
-alt + d 
-  discord
-
-alt + n 
-  thunar 
-
-alt + s
-  spotify
-
-alt + w
- whatsapp-nativefier-dark
- 
-alt + v 
-  vscodium
-
-alt + t
-  teams-for-linux
-
- alt + q 
-  qbittorrent
-
-alt + m 
-  MultiMC
-
-alt + p
-  pavucontrol
+alt + {b, d, f, l, m, n, p, s, t, v}
+    {blueman-manager, discord, firefox-developer-edition, audacious, multimc, thunar, pavucontrol, spotify, transmission-gtk, vscodium}
 
 #  clipboard fullscreen
 shift + Print
-     maim | xclip -selection clipboard -t image/png
+     maim | xclip -selection clipboard -t image/png && notify-send "Screenshot Taken"
 
 # clipboard cropped
 Print
-    maim --select | xclip -selection clipboard -t image/png
+    maim --select | xclip -selection clipboard -t image/png && notify-send "Screenshot Clipped"
