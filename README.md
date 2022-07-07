@@ -18,7 +18,7 @@
 ## Setting up 
 1. Decide if you want the bare minimum for my Bspwm setup, or all my applications and programs, the minimal one doesn't break anything.
 2. Clone the repository with **`git clone https://github.com/Bspwm.git`** and cd into it **`cd Bspwm`**
-3. Make the script an executable by doing **`chmod +x bspwm-big-setup.sh`** or **`chmod +x qtile-base-setup.sh`**
+3. Make the script an executable by doing **`chmod +x bspwm-big-setup.sh`** or **`chmod +x bspwm-base-setup.sh`**
 4. Run the script by doing **`./bspwm-big-setup.sh`** or **`./bspwm-base-setup.sh`**
 5. Type the sudo password whenever asked.
 6. Enjoy your new Bspwm setup!
